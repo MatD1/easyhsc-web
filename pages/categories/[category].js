@@ -122,8 +122,6 @@ export async function getStaticProps({ params }) {
     `https://api-easyhsc.herokuapp.com/Categories/${params.category}`
   );
   const categories = await res.json();
-  console.log(categories);
-
   // Pass post data to the page via props
   return { props: { categories } };
 }
