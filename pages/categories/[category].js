@@ -1,4 +1,3 @@
-// pages/posts/[id].js
 import Link from "next/link";
 import {
   Text,
