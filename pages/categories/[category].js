@@ -37,7 +37,7 @@ function Category({ categories }) {
       <Center pl={4} pr={4}>
       <Alert status="info">
           <AlertIcon />
-          <AlertTitle>{categories.alert_title}</AlertTitle>
+          <AlertTitle>{categories.alert_title || <a>No alert today</a>}</AlertTitle>
           <AlertDescription>
           {categories.alert_desc}
           </AlertDescription>
@@ -96,7 +96,7 @@ function Category({ categories }) {
             </VStack>
           </Box>
           <Center>
-            <Text fontSize="5xl">End Of Papers</Text>
+            <Text fontSize="3xl">End Of Papers</Text>
           </Center>
         </Grid>
 
