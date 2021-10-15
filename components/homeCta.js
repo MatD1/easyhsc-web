@@ -32,7 +32,7 @@ export const HomeCTA = () => {
           letterSpacing="tight"
           lineHeight="1.2"
         >
-          Get your HSC papers easily by category{' '}
+          Get HSC papers easily by category{' '}
           <Box
             as="mark"
             bg="unset"
@@ -43,7 +43,7 @@ export const HomeCTA = () => {
           </Box>
         </Heading>
         <Text fontSize="lg" maxW="xl" mx="auto">
-          EASYHSC is built with ease of use in mind, simply click the big blue button below to choose from a list of categories of HSC subjects then simply press the green button to see the list of past papers!
+          EASYHSC was originally built for just myself but I feel others could find this helpful, simply click the big blue button below to choose from a list of categories of HSC subjects then simply press the orange button to see the list of past papers!
         </Text>
         <Stack
           direction={{
