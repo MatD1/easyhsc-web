@@ -23,12 +23,10 @@ const Categorys = ({ papers, error }) => {
         <Grid templateRows="repeat(5, 1fr)" gap={6} pl={4} pb={10} pr={4}>
           {papers.map(paper => ( 
           <Box key={paper.id} w="100%" h="10" mb={10}>
-            <Center>
             <Heading>{paper.name}</Heading>
             <Link href={`/${paper.web_link}`}>
               <Button rightIcon={<Icon as={BsDoorClosed} />} colorScheme="orange">See Papers</Button>
             </Link>
-            </Center>
           </Box>
           ))}
         </Grid>
